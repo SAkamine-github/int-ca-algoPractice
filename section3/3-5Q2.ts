@@ -3,8 +3,8 @@
 // ただし次の条件を満たすとき「 X は A と B の最大公約数である」と言います。
 // 条件：X は A も B も割り切る 1 以上の整数の中で最大のものである
 
-const a: number = 18;
-const b: number = 30;
+const numberA: number = 18;
+const numberB: number = 30;
 
 // 最大公約数を求める関数
 const gcd = (a, b) => {
@@ -12,4 +12,4 @@ const gcd = (a, b) => {
   return gcd(b, a % b);
 };
 
-console.log(gcd(a, b));
+console.log(gcd(numberA, numberB));
