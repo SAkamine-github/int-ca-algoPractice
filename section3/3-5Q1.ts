@@ -12,7 +12,7 @@ if (numA === 1) {
 // 入力値が素数か調べる
 for (let i: number = 2; i < numA; i++) {
   if (numA % i === 0) {
-    check = false;
+    checked = false;
   }
 }
 
